@@ -596,6 +596,7 @@ func (erow *ERow) setupTextAreaSyntaxHighlight() {
 	case ".go",
 		".c", ".h",
 		".cpp", ".hpp", ".cxx", ".hxx", // c++
+		".zig",
 		".java",
 		".v",  // verilog
 		".js": // javascript
