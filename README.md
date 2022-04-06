@@ -410,6 +410,7 @@ Usage of GoDebug run:
 - `$edFileOffset`: filename with offset position from active row cursor. Ex: "filename:#123".
 - `$edFileLine`: index line from active row cursor (1-based). Ex: "12".
 - `$edFileWord`: word at index from active row cursor. Ex: "myvar". Usage ex: use `go doc $edFileWord` with cursor at a receiver variable.
+- `$edSelection`: capture selection from the relevant textarea and pass it to the command. Ex: `git show $edSelection` with "972ddb0" selected.
 - `$<name>=<string>`: set custom variable in a row toolbar to be set in the environment when running an external command.<br>
 	Example row toolbar:
 	```

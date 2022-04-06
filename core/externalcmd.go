@@ -65,6 +65,9 @@ func populateEnvVars(erow *ERow, cargs []string) []string {
 		"edFileWord": func() string {
 			return cmdVar_edFileWord(erow)
 		},
+		"edSelection": func() string {
+			return string(CaptureSelection(erow))
+		},
 	}
 
 	// Deprecated: allow continued usage
